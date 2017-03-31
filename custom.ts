@@ -28,7 +28,7 @@ namespace gtsoft.test {
      * @param w the time to turn on the pin
      */
     //% block
-    export function turnOn(w: uint16): void {
+    export function turnOn(w: number): void {
         pins.digitalWritePin(DigitalPin.P0, 1)
         basic.pause(w)
     }
@@ -38,7 +38,7 @@ namespace gtsoft.test {
      * @param w the time to turn on the pin
      */
     //% block
-    export function turnOff(w: uint16): void {
+    export function turnOff(w: number): void {
         pins.digitalWritePin(DigitalPin.P0, 0)
         basic.pause(w)
     }
