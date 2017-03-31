@@ -1,0 +1,61 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="device_button_event" id="V%iMvkX?3{%6@WDL}Xh;" x="20" y="20">
+    <field name="NAME">Button.A</field>
+    <statement name="HANDLER">
+      <block type="device_print_message" id="?9{JFQf8/IOcW5!h$|lZ">
+        <value name="text">
+          <shadow type="text" id="v:~*?GB%FC)xO2b+(0.A">
+            <field name="TEXT">Button Pressed!!</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="device_pause" id="UgeTc%D0$j5zR3LBI|v;">
+            <value name="pause">
+              <shadow type="math_number" id="m7u^{RGXNmn:Ovj#b+^N">
+                <field name="NUM">500</field>
+              </shadow>
+            </value>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="device_forever" id="SJEl!AxwY4WgPKwk?lXe" x="402" y="20">
+    <statement name="HANDLER">
+      <block type="device_print_message" id="h!VmQu|7_gFv,[BvIg+!">
+        <value name="text">
+          <shadow type="text" id="gs/IAX82BtP%}]h[o(?R">
+            <field name="TEXT">Hello JavaScript!!!</field>
+          </shadow>
+        </value>
+        <next>
+          <block type="device_pause" id="2$D)`(Brr:SOj.TMg];a">
+            <value name="pause">
+              <shadow type="math_number" id="?EA|Y=^+9fznvvd_ZPIS">
+                <field name="NUM">500</field>
+              </shadow>
+            </value>
+            <next>
+              <block type="device_print_message" id="GV2!^`e24,hrRWTV,]#f">
+                <value name="text">
+                  <shadow type="text" id="7k-fX%*c)ZHeYlk1#JN1">
+                    <field name="TEXT">Hello Glen!!!</field>
+                  </shadow>
+                </value>
+                <next>
+                  <block type="device_pause" id="IxsXWG0sTnchc.3FjDcV">
+                    <value name="pause">
+                      <shadow type="math_number" id="}{/|^WzD)UT~WSc[Bc%@">
+                        <field name="NUM">500</field>
+                      </shadow>
+                    </value>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
