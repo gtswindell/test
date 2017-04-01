@@ -10,18 +10,10 @@ input.onButtonPressed(Button.B, () => {
         isOn = 1
     } else {
         isOn = 0
-    }
-    
-    pins.digitalWritePin(DigitalPin.P0, isOn)
+    }    
+    pins.digitalWritePin(DigitalPin.P0, isOn)    
 })
 
+basic.forever(() => {
 
-
-// basic.forever(() => {
-//     gtsoft.test.printString("Hello JavaScript!!!", 300)
-//     basic.pause(500)
-//     gtsoft.test.printString("Hello Glen!!!", 300)
-//     basic.pause(500)
-//     gtsoft.test.turnOn(250)
-//     gtsoft.test.turnOff(250)
-// })
+})
